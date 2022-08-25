@@ -552,6 +552,7 @@ function getViewportOffsetRectRelativeToArtbitraryNode(element) {
   return getClientRect(offset);
 }
 
+
 /**
  * Check if the given element is fixed or is inside a fixed parent
  * @method
@@ -570,6 +571,8 @@ function isFixed(element) {
   }
   return isFixed(getParentNode(element));
 }
+
+
 
 /**
  * Computed the boundaries limits and return them
